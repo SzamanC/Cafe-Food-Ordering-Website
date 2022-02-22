@@ -1,0 +1,157 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{graphicx}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage[bookmarks]{hyperref}
+
+\begin{document}
+
+\pagestyle{empty}
+\begin{center}
+  \begin{figure}
+    \centering
+    \includegraphics[width=.33\textwidth]{download.png}
+  \end{figure}
+  {\sc
+  {\large North South University} \\
+  Department of Electrical and Computer Engineering
+
+  \bigskip
+  \bigskip
+
+  {\Large Project Proposal}
+
+  \bigskip
+  \bigskip
+
+  \hline
+  \medskip
+  {\Huge “Cafe Food Ordering Website”} \\[\bigskipamount]
+ 
+  \medskip
+  \hline
+
+  \bigskip
+  \bigskip
+  \bigskip
+
+  Database Systems Lab \\
+  CSE311.L \\
+  Section:09 \\
+  Semester: Spring 2022
+  }
+
+  \vspace{5\bigskipamount}
+
+  \begin{tabular}{ll c}
+    \textit{Student Names } & \textit{ID} & \multirow{5}{*}{\makecell[r]{
+                                              \textit{Course Faculty:} \\
+                                              Nadeem Ahmed \\[\smallskipamount]
+                                              \textit{Lab Instructor:} \\
+                                              Nazmul Alam Dipto \\
+                                            }} \\
+    Saifuzzaman & 1931406642 \\
+   Azra Sharmila Hiya & 1931487642 \\
+   Mohammad Irtiza Hossain & 2014321642 \\
+  \end{tabular}
+
+  \bigskip
+  \bigskip
+   \textsc{Submission Date : February 22,2022}\\
+  \bigskip
+  
+  \textsc{project repository link}:
+  \texttt{https://github.com/SzamanC/Cafe-Food-Ordering-Website.git}
+
+\end{center}
+\clearpage
+\pagebreak
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section*{Introduction} % (fold)
+\label{sec:introduction}
+This project will help local customers to order food online through a website from local cafes. In this pandemic situation, The cafe and restaurants were forced to close during the lockdown and food delivery service has become a lifeline for them. As the social distancing practices will not be going anywhere anytime soon, food delivery service would be the best way to ensure the continuation of the cafe business. That service expands the customer base, increases revenue, gives the customers variety of options, and also offers unparalleled convenience.Our web application is for ensuring a stable food delivery system that will maintain the full food delivery process and keep cafe owners and customers satisfied.
+% section introduction (end)
+
+
+\section*{Objectives} % (fold)
+\label{sec:objectives}
+\begin{itemize}
+  \item  To avail easy food delivery system
+  \item  To increase online presence
+  \item  Helping cafe owner to increase customers base
+  \item  To reduce manual works of seller.
+  \item  To make sure order accuracy and satisfy customers
+  \item  To create employment like hiring  delivery mans
+\end{itemize}
+% section objectives (end)
+
+\section*{Target Customers} % (fold)
+\label{sec:target_customers}
+\begin{itemize}
+  \item \emph{Consumers}: People who will order food from our website in the easiest way.
+  \item \emph{Cafe Owners}: The cafe owners who want an easy and stable food delivery platform
+
+\end{itemize}
+% section target_customers (end)
+
+\section*{Value Proposition} % (fold)
+\label{sec:value_proposition}
+This platform will reduce the bothering and time of going to a cafe to order food. On the contrary, it will enable customers to see exact details of food items on the website which will make purchases a lot easier. This increase in order number will enable repeat customers. As a result revenue of the cafe business will also increase.
+% section value_proposition (end)
+
+\section*{Web Application Features and Description} % (fold)
+\label{sec:web_application_features_and_description}
+This website will open with the customer view at first. That will be a general view and anyone accessing the domain will be able to view it. The first view will show the available Cafes and categories of food. The categories of the food section will lead to food items of the available linked seller. The customer can directly log as a visitor to enable customer view.\\
+That view enables customers to 
+
+\begin{itemize}
+\item See available food items and seller information.
+\item Search and explore items
+\item See suggestions
+\item Order items
+\item See the history of past orders
+\item See order status
+\item Give feedback and rating
+
+\end{itemize}
+The cafe owners will be able to sign up and log in to access their accounts. After creating their profile, they will be able to
+\begin{itemize}
+\item Add information about them
+\item Add food items and details
+\item Edit or delete any given information of them
+\item See the customer feedback
+ 
+\end{itemize}
+There will be admins who will have accounts and the account will allow them 
+\begin{itemize}
+\item 	To maintain the website by monitoring, updating, and deleting seller and customer information and the payment system.
+
+\end{itemize}
+% section web_application_features_and_description(end)
+
+
+
+\section*{Tools and Resources} % (fold)
+\label{sec:tools_and_resources}
+\begin{itemize}
+\item PHP
+\item HTML
+\item CSS
+\item MySQL
+\item Webserver
+
+
+\end{itemize}
+% section tools_and_resources (end)
+
+\section*{Challenge} % (fold)
+\label{sec:challenge}
+One of the biggest challenges is cost. Using a suitable server for managing web applications will cost a lot. There will be a huge set of data like seller and customer information and their account details and images. Every integrated data have to be checked. Thus accessing the data will not be easy as much processing need to be done. The UI needs to be simple and easy so that the users can properly use it. Lastly, the payment process and data must be secured so that no information can be stolen.
+% section challenge(end)
+
+
+\end{document}
